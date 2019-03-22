@@ -8,24 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		AD02F79F22446F990087233D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F79E22446F990087233D /* AppDelegate.m */; };
-		AD02F7A222446F990087233D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7A122446F990087233D /* ViewController.m */; };
+		AD02F7A222446F990087233D /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7A122446F990087233D /* HomeViewController.m */; };
 		AD02F7A522446F990087233D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD02F7A322446F990087233D /* Main.storyboard */; };
 		AD02F7A722446F9B0087233D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD02F7A622446F9B0087233D /* Assets.xcassets */; };
 		AD02F7AA22446F9B0087233D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD02F7A822446F9B0087233D /* LaunchScreen.storyboard */; };
 		AD02F7AD22446F9B0087233D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7AC22446F9B0087233D /* main.m */; };
+		AD02F7B5224470000087233D /* HorizontalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7B4224470000087233D /* HorizontalViewController.m */; };
+		AD02F7B82244B1F60087233D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7B72244B1F60087233D /* DetailViewController.m */; };
+		AD02F7BB2244B26D0087233D /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7BA2244B26D0087233D /* BaseViewController.m */; };
+		AD02F7BE2244B3600087233D /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD02F7BD2244B3600087233D /* BaseNavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD02F79A22446F990087233D /* HorizontalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizontalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD02F79D22446F990087233D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD02F79E22446F990087233D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AD02F7A022446F990087233D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AD02F7A122446F990087233D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AD02F7A022446F990087233D /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AD02F7A122446F990087233D /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		AD02F7A422446F990087233D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD02F7A622446F9B0087233D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD02F7A922446F9B0087233D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD02F7AB22446F9B0087233D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD02F7AC22446F9B0087233D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD02F7B3224470000087233D /* HorizontalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalViewController.h; sourceTree = "<group>"; };
+		AD02F7B4224470000087233D /* HorizontalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalViewController.m; sourceTree = "<group>"; };
+		AD02F7B62244B1F60087233D /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		AD02F7B72244B1F60087233D /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		AD02F7B92244B26D0087233D /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		AD02F7BA2244B26D0087233D /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		AD02F7BC2244B3600087233D /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
+		AD02F7BD2244B3600087233D /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +72,16 @@
 			children = (
 				AD02F79D22446F990087233D /* AppDelegate.h */,
 				AD02F79E22446F990087233D /* AppDelegate.m */,
-				AD02F7A022446F990087233D /* ViewController.h */,
-				AD02F7A122446F990087233D /* ViewController.m */,
+				AD02F7B92244B26D0087233D /* BaseViewController.h */,
+				AD02F7BA2244B26D0087233D /* BaseViewController.m */,
+				AD02F7BC2244B3600087233D /* BaseNavigationViewController.h */,
+				AD02F7BD2244B3600087233D /* BaseNavigationViewController.m */,
+				AD02F7A022446F990087233D /* HomeViewController.h */,
+				AD02F7A122446F990087233D /* HomeViewController.m */,
+				AD02F7B3224470000087233D /* HorizontalViewController.h */,
+				AD02F7B4224470000087233D /* HorizontalViewController.m */,
+				AD02F7B62244B1F60087233D /* DetailViewController.h */,
+				AD02F7B72244B1F60087233D /* DetailViewController.m */,
 				AD02F7A322446F990087233D /* Main.storyboard */,
 				AD02F7A622446F9B0087233D /* Assets.xcassets */,
 				AD02F7A822446F9B0087233D /* LaunchScreen.storyboard */,
@@ -141,8 +161,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD02F7A222446F990087233D /* ViewController.m in Sources */,
+				AD02F7B82244B1F60087233D /* DetailViewController.m in Sources */,
+				AD02F7BB2244B26D0087233D /* BaseViewController.m in Sources */,
+				AD02F7BE2244B3600087233D /* BaseNavigationViewController.m in Sources */,
+				AD02F7A222446F990087233D /* HomeViewController.m in Sources */,
 				AD02F7AD22446F9B0087233D /* main.m in Sources */,
+				AD02F7B5224470000087233D /* HorizontalViewController.m in Sources */,
 				AD02F79F22446F990087233D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,13 +312,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4VX949QFW;
 				INFOPLIST_FILE = HorizontalDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gejiangs.HorizontalDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,13 +330,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B4VX949QFW;
 				INFOPLIST_FILE = HorizontalDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gejiangs.HorizontalDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

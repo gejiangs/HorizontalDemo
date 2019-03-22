@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HorizontalViewController.h
 //  HorizontalDemo
 //
 //  Created by gejiangs on 2019/3/22.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HorizontalViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
